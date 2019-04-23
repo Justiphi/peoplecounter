@@ -1,0 +1,19 @@
+﻿<Window x:Class="FaceCounter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FaceCounter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid Margin="10,101,10,10">
+            <Image x:Name="imageBox" Margin="10,10,10,29"/>
+            <Label x:Name="itemLabel" Content="Label" HorizontalAlignment="Left" Margin="10,0,0,3" Height="26" VerticalAlignment="Bottom"/>
+        </Grid>
+        <Label Content="Face Counter" Margin="10,10,10,0" VerticalAlignment="Top" Height="47" FontWeight="Bold" FontSize="24" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="Using OpenCV via EmguCV" Margin="10,57,10,0" VerticalAlignment="Top" Height="39" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
